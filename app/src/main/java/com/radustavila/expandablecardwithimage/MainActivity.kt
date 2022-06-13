@@ -83,7 +83,7 @@ fun ListOfDogsCustom() {
 
     Column(Modifier.verticalScroll(rememberScrollState())) {
         ExpandableCardWithImage(
-            title = "Cookie Cookie v v v vCookie Cookie Cookie Cookie",
+            title = "Cookie",
             description = stringResource(id = R.string.dog_1_text),
             image = R.drawable.dog4,
             titleFontSize = titleFontSize,
